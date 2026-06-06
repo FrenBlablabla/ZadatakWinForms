@@ -1,0 +1,5 @@
+{
+  "ApiPostavke": {
+    "BazaUri": "https://localhost:5225/api/student"
+  }
+}
