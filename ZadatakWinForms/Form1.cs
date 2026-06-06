@@ -61,7 +61,7 @@ namespace ZadatakWinForms
             public StudentService()
             {
                 _client = new HttpClient();
-                _client.BaseAddress = new Uri("https://localhost:5032/");
+                _client.BaseAddress = new Uri("https://localhost:5225/");
             }
 
             public async Task<List<string>> GetJmbags()
